@@ -1,0 +1,9 @@
+[target]
+# Host running the services being proxied.
+ip = "192.168.1.100"
+# MAC address of the host's network adapter used for Wake-on-LAN.
+mac = "AA:BB:CC:DD:EE:FF"
+# Broadcast address for the target host's subnet.
+broadcast = "192.168.1.255"
+# Maximum number of seconds to wait for the host to wake.
+wake_timeout = 45

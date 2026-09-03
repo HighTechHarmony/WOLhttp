@@ -1,0 +1,5 @@
+fastapi
+httpx
+uvicorn[standard]
+wakeonlan
+websockets>=10,<14
